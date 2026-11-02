@@ -353,7 +353,11 @@
 							"typeProperties": {
 								"scripts": [
 									{
-										"type": "Query"
+										"type": "Query",
+										"text": {
+											"value": "UPDATE ctrl.watermark\nSET watermark_value = SYSUTCDATETIME()\nwhere table_id = @{pipeline().parameters.table_id}",
+											"type": "Expression"
+										}
 									}
 								],
 								"scriptBlockExecutionTimeout": "02:00:00"
