@@ -1272,6 +1272,7 @@
 				"activities": [
 					{
 						"name": "Source to Silver Postgres",
+						"description": "Source to Silver from postgres",
 						"type": "ExecutePipeline",
 						"dependsOn": [],
 						"policy": {
