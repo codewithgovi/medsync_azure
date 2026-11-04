@@ -1,1 +1,14 @@
-{}
+{
+	"email_receipent": {
+		"type": "string",
+		"value": "govardhankc@gmail.com"
+	},
+	"env": {
+		"type": "string",
+		"value": "DEV"
+	},
+	"logic_apps_url": {
+		"type": "string",
+		"value": "https://prod-22.centralindia.logic.azure.com:443/workflows/970173b8992d4a8a8e0891eff46a11b0/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=pLv82_bkd0Iv7c4UflnZoGoyXrns1mcxBWfNhZzdIPc"
+	}
+}
