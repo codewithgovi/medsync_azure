@@ -83,6 +83,35 @@
 						}
 					}
 				}
+			},
+			{
+				"name": "Send Email",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Source to Gold",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL_SEND_EMAIL",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"adf_run_id": {
+							"value": "@pipeline().RunId",
+							"type": "Expression"
+						}
+					}
+				}
 			}
 		],
 		"annotations": []
