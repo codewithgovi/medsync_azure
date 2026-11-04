@@ -1,0 +1,12 @@
+{
+	"name": "adf-medsync",
+	"properties": {
+		"globalParameters": {
+			"email_receipent": {
+				"type": "string",
+				"value": "govardhankc@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
