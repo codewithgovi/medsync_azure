@@ -64,18 +64,5 @@ Data objects curated inside the Gold layer are delivered to three strategic data
 * **LLM Semantic Layer Setup:** Configured specialized Gold schema contexts enabling Databricks Genie interfaces to accurately translate natural language text into high-performance analytical Spark SQL.
 
 ---
-
-##  Repository Layout
-```text
-├── .github/workflows/      # Automated deployment automation files
-├── adf/                    # Azure Data Factory templates (JSON configurations)
-│   ├── pipeline/           # Parameterized ingestion loops
-│   ├── linkedservice/      # Key Vault bounded connection templates
-│   └── dataset/            # Dynamic dataset schemas
-├── sql-metadata/           # DDL scripts for Ingestion Metadata & Audit Tables
-├── databricks/             # Scalable transformation code
-│   ├── 01_bronze_to_silver.py   # Cleansing, schema typing, and validation filters
-│   └── 02_silver_to_gold.py     # Aggregation, modeling, and Genie semantic setups
-├── logic-apps/             # SLA alerting workflow definitions
 └── README.md               # Architecture documentation
 ```
