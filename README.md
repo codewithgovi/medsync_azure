@@ -64,5 +64,4 @@ Data objects curated inside the Gold layer are delivered to three strategic data
 * **LLM Semantic Layer Setup:** Configured specialized Gold schema contexts enabling Databricks Genie interfaces to accurately translate natural language text into high-performance analytical Spark SQL.
 
 ---
-└── README.md               # Architecture documentation
-```
+
