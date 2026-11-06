@@ -2,12 +2,12 @@
 	"name": "TGR_Medsync_DAILY",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Day",
+				"frequency": "Week",
 				"interval": 1,
 				"startTime": "2026-11-04T20:10:00Z",
 				"timeZone": "UTC",
